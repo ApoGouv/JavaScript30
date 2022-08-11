@@ -1,28 +1,93 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>JavaScript 30 by ApoGouv</title>
+        <meta
+            name="description"
+            content="Here you can find my implementations of the JavaScript 30 Day Challenge by Wes Bos."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>JavaScript 30 by ApoGouv</title>
-  <meta name="description" content="Here you can find my implementaions of the JavaScript 30 Day Challenge by Wes Bos.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="JavaScript 30 by ApoGouv" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://apogouv.github.io/JavaScript30/"
+        />
+        <meta
+            property="og:image"
+            content="/assets/images/JavaScript30-challenge_by_Wes_Bos.png"
+        />
 
-  <meta property="og:title" content="JavaScript 30 by ApoGouv">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+        <link rel="icon" href="/favicon.ico" sizes="any" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
+        <link
+            rel="stylesheet"
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container">
+                <a class="navbar-brand" href="#">JavaScript30</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Showcase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<body>
-  <p>Welcome to JS 30</p>
-  
-  <script src="assets/js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="assets/js/app.js"></script>
-</body>
+        <!-- main banner -->
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div
+                        class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text"
+                    >
+                        <h2 class="hero_title"></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- showcase section-->
+        <section id="showcase">
+            <div class="container mt-4 mb-4">
+                <h1 class="text-center">Showcase</h1>
+                <div id="showcase_holder" class="row m-2"></div>
+                <!-- /#showcase_holder.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /#showcase -->
+
+        <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

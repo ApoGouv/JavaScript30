@@ -1,0 +1,29 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "Personal implementations of the JavaScript30 challenge by Wes Bos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copycss": "copyfiles -f node_modules/normalize.css/normalize.css assets/css/",
+    "dev_server_all": "browser-sync start --server --files \"**/*\"",
+    "dev_server_html": "browser-sync start --server --files \"**/*.html, **/*.css, **/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApoGouv/JavaScript30.git"
+  },
+  "author": "Apostolos Gouvalas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ApoGouv/JavaScript30/issues"
+  },
+  "homepage": "https://github.com/ApoGouv/JavaScript30#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "copyfiles": "^2.4.1"
+  }
+}
